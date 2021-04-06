@@ -1,13 +1,22 @@
 /* Se cambia la tipografia de la pagina web */
 * {
-    font-family: 'Calibri', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url('../img/cool.svg');
+   
 }
 /* Se configura el header, centrando el contenido, se coloca color de fondo y cambiar el color del texto */
 header {
     background-color: #dddddd;
     color:#1f497d;
     line-height: 2;
-    text-align: center;    
+    text-align: center; 
+    margin: 20px auto 0 auto;
+    max-width: 60%;
+    padding: 0 0 10px 0;
+    border-radius: 20px;
 }
 
 header img {
@@ -18,17 +27,22 @@ header img {
 /* Se le da color de fondo  y espaciado a la etiqueta h1 */
 
 h1, h2 {
-    background-color: #BFBFBF ;
+    background-color: #bfbfbf ;
     letter-spacing: 4px;
     text-transform: uppercase;
+    border-radius: 20px;
+    opacity: 80%;
+    
 }
 
 h1 {
-    margin: 0px;
+    margin: 0 15px;
 }
 
 h2 {
     font-size: 18px;
+    margin: 0 15px;
+
 }
 
 main section h2 {
@@ -36,9 +50,15 @@ main section h2 {
 }
 
 main {
-    margin: 0 auto;
+    background-image: url('../img/background2.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    margin: 20px auto;
     max-width: 60%;
-    padding: 30px 0;
+    padding: 10px 0 20px 0;
+    border-radius: 20px;
 }
 
 .item-detail {
@@ -48,12 +68,20 @@ main {
 }
 
 footer {
-    background-color:#1F497d;
+    background-color:#5f82ad;
     font-size: 24px;
     color: white;
     text-align: center;
+    margin: 0 auto;
+    max-width: 60%;
+    border-radius: 20px;
 }
 
 footer img {
     width: 20px;
 }
+
+.shadow {
+    box-shadow: 6px 6px 6px 6px rgba(5, 5, 5, 0.281), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
