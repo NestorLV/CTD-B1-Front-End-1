@@ -9,7 +9,9 @@ body {
 }
 /* Se configura el header, centrando el contenido, se coloca color de fondo y cambiar el color del texto */
 header {
-    background-color: #dddddd;
+    background-image: url('../img/background3.gif');
+    background-color: #e0dada;
+    background-repeat: repeat-x;
     color:#1f497d;
     line-height: 2;
     text-align: center; 
@@ -27,7 +29,7 @@ header img {
 /* Se le da color de fondo  y espaciado a la etiqueta h1 */
 
 h1, h2 {
-    background-color: #bfbfbf ;
+    
     letter-spacing: 4px;
     text-transform: uppercase;
     border-radius: 20px;
@@ -37,12 +39,14 @@ h1, h2 {
 
 h1 {
     margin: 0 15px;
+    font-weight: bold;
 }
 
 h2 {
     font-size: 18px;
     margin: 0 15px;
-
+    background-color: #bfbfbf ;
+    
 }
 
 main section h2 {
