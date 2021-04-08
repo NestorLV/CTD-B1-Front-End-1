@@ -30,3 +30,7 @@ h2, h3 {
 main a {
     color: orange;
 }
+
+main {
+    color: gray;
+}
