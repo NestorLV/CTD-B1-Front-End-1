@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+header {
+    background-image: url('../img/lemon-pie.png');
+    background-size: 1920px 1080px;
+    background-position: 0px -100px;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    ;
+    
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+main a {
+    color: orange;
+}
