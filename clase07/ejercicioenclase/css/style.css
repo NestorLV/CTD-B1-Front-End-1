@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.disccount {
+    background-color: #1cd1b0;
+    font-size: 1em;
+}
+
+h1 {
+    background-color: #00669f;
+    color: white;
+}
+
+.card {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.bottom-card img {
+    
+    border-radius: 50% 50%;
+}
