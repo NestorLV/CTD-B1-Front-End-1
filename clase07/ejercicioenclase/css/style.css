@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
     box-sizing: border-box;
@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .disccount {
@@ -28,91 +28,99 @@ header {
 
 header h1 {
     background-color: #00669f;
-    padding: 0.5em 0em 0.5em 32px;
     color: white;
     font-size: 3em;
+    padding: 0.5em 0em 0.5em 32px;
 }
 
 .card {
-    width: 700px;
     margin: 3em auto;
+    width: 700px;
+    max-width: 60%;
 }
 
 .bgBatman {
-    background-image: url('../img/bg-batman.jpg');
-    height: 406px;
-    background-position: 0px 0px ;
+    background-image: url("../img/bg-batman.jpg");
+    background-position: 0px 0px;
     background-size: 100%;
     border-radius: 50px 50px 0 0;
+    height: 406px;
     position: relative;
 }
 
 .bgWonderWoman {
-    background-image: url('../img/bg-wonderw.jpg');
-    height: 406px;
-    background-position: 0px 0px ;
+    background-image: url("../img/bg-wonderw.jpg");
+    background-position: 0px 0px;
     background-size: 100%;
     border-radius: 50px 50px 0 0;
+    height: 406px;
     position: relative;
 }
 
 .bgSuperman {
-    background-image: url('../img/bg-superman.jpg');
-    height: 406px;
-    background-position: 0px 0px ;
+    background-image: url("../img/bg-superman.jpg");
+    background-position: 0px 0px;
     background-size: 100%;
     border-radius: 50px 50px 0 0;
+    height: 406px;
     position: relative;
 }
 
 .bottom-card {
-    position:relative;
-    padding: 180px 0 20px 0;
     background-color: gainsboro;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 180px 0 20px 0;
+    position: relative;
 }
 
 .icoBatman {
-    background-image: url('../img/batman.jpg');
-    border-radius: 50%; 
-    width: 300px;
+    background-image: url("../img/batman.jpg");
+    background-position: 613px 0px;
+    border-radius: 50%;
     height: 300px;
-    background-position: 613px 0px ;
+    left: 0;
+    margin: 0 auto;
     position: absolute;
-    top: -150px;
-    left: 200px;
+    right: 0;
+    top: -25%;
+    width: 300px;
+
 }
 
 .icoWonderWoman {
-    background-image: url('../img/wonderw.jpg');   
-    border-radius: 50%; 
-    width: 300px;
-    height: 300px;
-    background-position: 300px 0px ;
+    background-image: url("../img/wonderw.jpg");
+    background-position: 300px 0px;
     background-size: 100%;
+    border-radius: 50%;
+    height: 300px;
+    left: 0;
+    margin: 0 auto;
     position: absolute;
-    top: -150px;
-    left: 200px;
+    right: 0;
+    top: -25%;
+    width: 300px;
 }
 
 .icoSuperMan {
-    background-image: url('../img/superman.jpg');
-    border-radius: 50%; 
-    width: 300px;
-    height: 300px;
-    background-position: 380px 0px ;
+    background-image: url("../img/superman.jpg");
+    background-position: 380px 0px;
     background-size: 150%;
+    border-radius: 50%;
+    height: 300px;
+    left: 0;
+    margin: 0 auto;
     position: absolute;
-    top: -150px;
-    left: 200px;
+    right: 0;
+    top: -25%;
+    width: 300px;
 }
 
 i {
-    position:absolute;
-    top: 6.25%;
-    left: 6.25%;
-    color: #CC2424;
+    color: #cc2424;
     font-size: 3em;
+    left: 6.25%;
+    position: absolute;
+    top: 6.25%;
 }
 
 .bottom-card h2 {
@@ -121,34 +129,35 @@ i {
 }
 
 .bottom-card p {
-    text-align: center;
     font-size: 2em;
-}
-.bottom-card a {
-    background-color:#00669F;
-    color: white;
-    border-radius: 5px;
-    padding: 0.5em 0em;
-    width: 8em;
-    margin: 1em auto;
-    display: block;
     text-align: center;
+}
+
+.bottom-card a {
+    background-color: #00669f;
+    border-radius: 5px;
+    color: white;
+    display: block;
     font-size: 2.5em;
+    margin: 1em auto;
+    padding: 0.5em 0em;
+    text-align: center;
     text-decoration: none;
+    width: 8em;
 }
 
 .buttomPlus {
-    display: block;
+    background-color: #00669f;
     border-radius: 50%;
-    background-color:#00669F;
-    position: fixed;
-    top: 50%;
-    right: 5%;
-    width: 150px;
-    height: 150px;
     color: white;
+    display: block;
     font-size: 6em;
-    text-decoration: none;
+    height: 150px;
+    padding-top: 16px;
+    position: fixed;
+    right: 1%;
     text-align: center;
-    padding-top:16px;
-    }
+    text-decoration: none;
+    top: 50%;
+    width: 150px;
+}
