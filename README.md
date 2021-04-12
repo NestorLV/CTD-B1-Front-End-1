@@ -18,7 +18,7 @@ Proyecto 4: Recetas manejo de imagenes, iconos, fuentes y colores con hojas de e
 
 https://nestorlv.github.io/CTD-B1-Front-End-1/clase06/ejercicioenclase/index.html
 
-Proyecto 5: Recetas manejo de imagenes, iconos, fuentes y colores con hojas de estilo externas CSS
+Proyecto 5: ¨Proyecto Card Super Heroes con posiciones 
 
 https://nestorlv.github.io/CTD-B1-Front-End-1/clase07/ejercicioenclase/index.html
 
