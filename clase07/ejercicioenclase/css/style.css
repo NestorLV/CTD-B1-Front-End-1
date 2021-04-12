@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,20 +12,143 @@ body {
 
 .disccount {
     background-color: #1cd1b0;
-    font-size: 1em;
+    font-size: 2em;
+    height: 2em;
+    padding: 0.5em 0em 0.5em 32px;
+    position: sticky;
+    top: 0px;
+    z-index: 99;
 }
 
-h1 {
+header {
+    position: sticky;
+    top: 4em;
+    z-index: 99;
+}
+
+header h1 {
     background-color: #00669f;
+    padding: 0.5em 0em 0.5em 32px;
     color: white;
+    font-size: 3em;
 }
 
 .card {
     width: 700px;
-    margin: 0 auto;
+    margin: 3em auto;
 }
 
-.bottom-card img {
-    
-    border-radius: 50% 50%;
+.bgBatman {
+    background-image: url('../img/bg-batman.jpg');
+    height: 406px;
+    background-position: 0px 0px ;
+    background-size: 100%;
+    border-radius: 50px 50px 0 0;
+    position: relative;
 }
+
+.bgWonderWoman {
+    background-image: url('../img/bg-wonderw.jpg');
+    height: 406px;
+    background-position: 0px 0px ;
+    background-size: 100%;
+    border-radius: 50px 50px 0 0;
+    position: relative;
+}
+
+.bgSuperman {
+    background-image: url('../img/bg-superman.jpg');
+    height: 406px;
+    background-position: 0px 0px ;
+    background-size: 100%;
+    border-radius: 50px 50px 0 0;
+    position: relative;
+}
+
+.bottom-card {
+    position:relative;
+    padding: 180px 0 20px 0;
+    background-color: gainsboro;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.icoBatman {
+    background-image: url('../img/batman.jpg');
+    border-radius: 50%; 
+    width: 300px;
+    height: 300px;
+    background-position: 613px 0px ;
+    position: absolute;
+    top: -150px;
+    left: 200px;
+}
+
+.icoWonderWoman {
+    background-image: url('../img/wonderw.jpg');   
+    border-radius: 50%; 
+    width: 300px;
+    height: 300px;
+    background-position: 300px 0px ;
+    background-size: 100%;
+    position: absolute;
+    top: -150px;
+    left: 200px;
+}
+
+.icoSuperMan {
+    background-image: url('../img/superman.jpg');
+    border-radius: 50%; 
+    width: 300px;
+    height: 300px;
+    background-position: 380px 0px ;
+    background-size: 150%;
+    position: absolute;
+    top: -150px;
+    left: 200px;
+}
+
+i {
+    position:absolute;
+    top: 6.25%;
+    left: 6.25%;
+    color: #CC2424;
+    font-size: 3em;
+}
+
+.bottom-card h2 {
+    text-align: center;
+    font-size: 4em;
+}
+
+.bottom-card p {
+    text-align: center;
+    font-size: 2em;
+}
+.bottom-card a {
+    background-color:#00669F;
+    color: white;
+    border-radius: 5px;
+    padding: 0.5em 0em;
+    width: 8em;
+    margin: 1em auto;
+    display: block;
+    text-align: center;
+    font-size: 2.5em;
+    text-decoration: none;
+}
+
+.buttomPlus {
+    display: block;
+    border-radius: 50%;
+    background-color:#00669F;
+    position: fixed;
+    top: 50%;
+    right: 5%;
+    width: 150px;
+    height: 150px;
+    color: white;
+    font-size: 6em;
+    text-decoration: none;
+    text-align: center;
+    padding-top:16px;
+    }
