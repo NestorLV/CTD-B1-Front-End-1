@@ -12,110 +12,113 @@ body {
 
 .disccount {
     background-color: #1cd1b0;
-    font-size: 2em;
-    height: 2em;
-    padding: 0.5em 0em 0.5em 32px;
+    font-size: 16px;
+    padding-left: 20px;
     position: sticky;
     top: 0px;
-    z-index: 99;
+    z-index: 9;
 }
 
 header {
     position: sticky;
-    top: 4em;
-    z-index: 99;
+    top: 16px;
+    z-index: 9;
 }
 
 header h1 {
     background-color: #00669f;
     color: white;
-    font-size: 3em;
-    padding: 0.5em 0em 0.5em 32px;
+    font-size: 24px;
+    padding-left: 20px;
 }
 
 .card {
     margin: 3em auto;
-    width: 700px;
-    max-width: 60%;
+    width: 400px;
+    max-width: 40%;
 }
 
 .bgBatman {
     background-image: url("../img/bg-batman.jpg");
     background-position: 0px 0px;
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 50px 50px 0 0;
-    height: 406px;
+    height: 256px;
     position: relative;
 }
 
 .bgWonderWoman {
     background-image: url("../img/bg-wonderw.jpg");
     background-position: 0px 0px;
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 50px 50px 0 0;
-    height: 406px;
+    height: 256px;
     position: relative;
 }
 
 .bgSuperman {
     background-image: url("../img/bg-superman.jpg");
     background-position: 0px 0px;
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 50px 50px 0 0;
-    height: 406px;
+    height: 256px;
     position: relative;
 }
 
 .bottom-card {
     background-color: gainsboro;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    padding: 180px 0 20px 0;
+    padding: 80px 0 5px 0;
     position: relative;
 }
 
 .icoBatman {
     background-image: url("../img/batman.jpg");
-    background-position: 613px 0px;
+    background-position: 278px 0px;
+    background-size: 300%;
     border-radius: 50%;
-    height: 300px;
+    height: 150px;
     left: 0;
     margin: 0 auto;
     position: absolute;
     right: 0;
-    top: -25%;
-    width: 300px;
+    top: -75px;
+    width: 150px;
 
 }
 
 .icoWonderWoman {
     background-image: url("../img/wonderw.jpg");
-    background-position: 300px 0px;
+    background-position: 0px 0px;
     background-size: 100%;
     border-radius: 50%;
-    height: 300px;
+    height: 150px;
     left: 0;
     margin: 0 auto;
     position: absolute;
     right: 0;
-    top: -25%;
-    width: 300px;
+    top: -75px;
+    width: 150px;
 }
 
 .icoSuperMan {
     background-image: url("../img/superman.jpg");
-    background-position: 380px 0px;
+    background-position: 190px 0px;
     background-size: 150%;
     border-radius: 50%;
-    height: 300px;
+    height: 150px;
     left: 0;
     margin: 0 auto;
     position: absolute;
     right: 0;
-    top: -25%;
-    width: 300px;
+    top: -75px;
+    width: 150px;
 }
 
-i {
+.card i {
     color: #cc2424;
     font-size: 3em;
     left: 6.25%;
@@ -125,12 +128,13 @@ i {
 
 .bottom-card h2 {
     text-align: center;
-    font-size: 4em;
+    font-size: 2em;
 }
 
 .bottom-card p {
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
+    padding: 5px;
 }
 
 .bottom-card a {
@@ -138,8 +142,8 @@ i {
     border-radius: 5px;
     color: white;
     display: block;
-    font-size: 2.5em;
-    margin: 1em auto;
+    font-size: 1.5em;
+    margin: 0.25em auto;
     padding: 0.5em 0em;
     text-align: center;
     text-decoration: none;
@@ -147,17 +151,9 @@ i {
 }
 
 .buttomPlus {
-    background-color: #00669f;
-    border-radius: 50%;
-    color: white;
-    display: block;
-    font-size: 6em;
-    height: 150px;
-    padding-top: 16px;
     position: fixed;
     right: 1%;
-    text-align: center;
-    text-decoration: none;
+    color: #00669f;
     top: 50%;
-    width: 150px;
+    font-size: 3em;
 }
