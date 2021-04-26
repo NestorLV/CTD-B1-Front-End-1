@@ -1,11 +1,12 @@
 @import url('var.css');
+
 footer {
-    background-color:var(--colorFooter);
+    background-color: var(--colorFooter);
     bottom: 0;
-    color:var(--textColorFooter);
+    color: var(--textColorFooter);
     font-size: var(--fontSizeFooter);
-    height: 30px;
-    padding-top: 6px;
+    height: 2vw;
+    padding-top: 0.25vw;
     position: fixed;
     text-align: center;
     width: 100%;

@@ -12,7 +12,7 @@ body {
 
 section {
     margin: 0 auto;
-    padding-top: 250px;
+    padding-top: 150px;
     text-align: center;
 }
 
@@ -20,7 +20,7 @@ section {
     width: 546px;
     display: inline-block;
     margin: 30px;
-    position:relative;
+    position: relative;
 }
 
 .icoHarley {
@@ -44,14 +44,14 @@ i {
     left: 5%;
     position: absolute;
     top: 15%;
-    z-index: 9;
+    z-index: 2;
 }
 
 .bottom-card {
     background-color: #F3F3F3;
     padding-top: 50px;
     height: 300px;
-        
+
     border-radius: 50px 50px 0 0;
 }
 
@@ -103,6 +103,7 @@ div.icons {
     background-color: #F3F3F3;
     padding-bottom: 10px;
 }
+
 ul {
     display: none;
 }

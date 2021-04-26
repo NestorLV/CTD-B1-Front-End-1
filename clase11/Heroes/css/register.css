@@ -6,7 +6,7 @@
 section {
     margin: 0 auto;
     padding-top: 230px;
-    text-align: center; 
+    text-align: center;
 }
 
 main section h2 {
@@ -15,10 +15,11 @@ main section h2 {
 }
 
 form {
-    margin: 0 auto;   
+    margin: 0 auto;
 }
 
- input, select {
+input,
+select {
     display: block;
     height: 40px;
     margin: 20px auto;
@@ -29,19 +30,20 @@ form {
     font-size: var(--fontSizeP);
 }
 
-input[type=submit], input[type=reset] {
+input[type=submit],
+input[type=reset] {
     background-color: var(--colorDisccount);
     border: none;
     border-radius: 20px;
-    font-size: var(--fontSizeNav3);
+    font-size: var(--fontSizeP);
     font-weight: bold;
     margin: 30px auto 20px auto;
     width: 220px;
     display: inline-block;
 }
 
-input[type=reset]{
-    background-color: gray;  
+input[type=reset] {
+    background-color: gray;
 }
 
 select {
@@ -49,7 +51,7 @@ select {
 }
 
 main section span {
-    color:#00669F;
+    color: #00669F;
 }
 
 main section a {

@@ -1,6 +1,7 @@
 @import url('var.css');
+
 header {
-    position: fixed;
+    position: sticky;
     top: 0;
     width: 100%;
     z-index: 9;
@@ -8,27 +9,32 @@ header {
 
 .subNav1 {
     background-color: var(--colorDisccount);
-   
-    
+
+
 }
 
-.subNav1 p{
+.subNav1 p {
     font-size: var(--fontSizeNav1);
-    margin-block-end: 0em;
-    margin-block-start: 0em;
-    margin-inline-end: 0px;
-    margin-inline-start: 0px;
-    padding-left: 2vw;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+    padding-left: 1vw;
 }
 
 .subNav2 {
-    background-color:var(--colorNav);
-    padding-left: 2vw;
-    
+    background-color: var(--colorNav);
+    padding-left: 0.5vw;
+
 }
 
-.subNav2 img {
+.subNav2 a {
     display: inline-block;
+}
+
+.subNav2 a img {
+    display: inline-block;
+    height: 4vw;
 }
 
 .subNav2 h1 {
@@ -36,21 +42,29 @@ header {
     color: var(--textColorNav);
     font-size: var(--fontSizeNav2);
     position: relative;
-    top:-25px;
+    top: -1vw;
     font-weight: lighter;
+    padding-left: 1vw;
 }
 
 header ul {
     text-align: right;
-    padding: 5px 15px 5px 5px;
-    background-color:var(--colorNav2);
+    padding: 0.25vw 1vw 0.25vw 0.25vw;
+    background-color: var(--colorNav2);
+    display: block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
 }
 
 header ul li {
     display: inline;
     color: var(--textColorNav);
-    padding: 10px 10px;
-    font-size: var(--fontSizeNav3)
+    padding: 1vw;
+    font-size: var(--fontSizeNav1)
 }
 
 header ul li a {
@@ -61,5 +75,5 @@ header ul li a {
 
 header ul li a:hover {
     background-color: gray;
-    
+
 }
