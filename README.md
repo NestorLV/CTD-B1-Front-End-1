@@ -22,6 +22,10 @@ Proyecto 5: ¨Proyecto Card Super Heroes con posiciones
 
 https://nestorlv.github.io/CTD-B1-Front-End-1/clase07/ejercicioenclase/index.html
 
+Proyecto 6: "EShop - Heroes Card - Formularios"
+
+https://nestorlv.github.io/CTD-B1-Front-End-1/clase11/Heroes/
+
 
 LENGUAJES:
 
