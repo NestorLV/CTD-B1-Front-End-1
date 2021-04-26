@@ -7,8 +7,9 @@ footer {
     font-size: var(--fontSizeFooter);
     height: 2vw;
     padding-top: 0.25vw;
-    position: fixed;
-    text-align: center;
+    text-align: absolute;
+    position: relative;
     width: 100%;
     z-index: 10;
+    text-align: center;
 }

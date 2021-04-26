@@ -15,6 +15,9 @@ section {
     right: 0;
     text-align: center;
     top: 90px;
+    padding-bottom: 200px;
+
+   
 }
 
 textarea {
@@ -140,4 +143,8 @@ input[type="date"] {
 
 input[type="text"] {
     border: 1px greenyellow solid;
+}
+
+footer {
+    display: none;
 }
