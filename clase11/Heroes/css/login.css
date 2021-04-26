@@ -19,20 +19,20 @@ form {
 }
 
 input {
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
     display: block;
+    font-size: var(--fontSizeP);
     height: 40px;
     margin: 20px auto;
-    border: 1px solid gainsboro;
-    width: 450px;
-    box-sizing: border-box;
     padding-left: 10px;
-    font-size: var(--fontSizeP);
+    width: 450px;
 }
 
 input[type=submit] {
     background-color: var(--colorDisccount);
-    border: none;
     border-radius: 20px;
+    border: none;
     font-size: var(--fontSizeP);
     font-weight: bold;
     margin: 40px auto 20px auto;

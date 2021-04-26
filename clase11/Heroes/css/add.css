@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("header.css");
+@import url("footer.css");
+@import url("var.css");
+
+section {
+    background-color: var(--colorNav);
+    border-radius: 20px;
+    bottom: 0;
+    height: 550px;
+    left: 0;
+    margin: auto;
+    max-width: 600px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 90px;
+}
+
+textarea {
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px 13px 33px 10px;
+    resize: none;
+    width: 100%;
+}
+
+form fieldset {
+    border: none;
+    display: inline-block;
+    height: 390px;
+    margin: 10px 10px;
+    width: 40%;
+}
+
+form fieldset label,
+form fieldset input {
+    border: 0;
+    display: block;
+}
+
+label {
+    color: white;
+    font-size: 12px;
+}
+
+div h2 {
+    color: white;
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+section div p {
+    color: white;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+fieldset label {
+    width: 90%;
+    text-align: left;
+    padding: 15px 0;
+}
+
+fieldset input[type="text"],
+fieldset input[type="date"],
+fieldset select {
+    border-radius: 10px;
+    height: 40px;
+    text-align: left;
+    width: 100%;
+}
+
+fieldset select {
+    border: none;
+}
+
+::placeholder {
+    padding-left: 10px;
+}
+
+fieldset input[type="file"] {
+    display: block;
+    margin: 10px auto;
+    width: 240px;
+}
+
+label.power {
+    margin-top: 30px;
+}
+
+.power {
+    padding: 0;
+}
+
+div.power input,
+div.power label {
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+}
+
+div.typeCharacter input,
+div.typeCharacter label {
+    display: inline-block;
+    padding: 0;
+    text-align: left;
+}
+
+.typeCharacter {
+    padding: 0;
+}
+
+label.typeCharacter {
+    margin-top: 15px;
+}
+
+input[type="submit"] {
+    background-color: var(--colorDisccount);
+    border-radius: 10px;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto 20px auto;
+    padding: 15px;
+    width: 40%;
+}
+
+input:hover,
+select:hover,
+textarea:hover {
+    background-color: skyblue;
+}
+
+input[type="date"] {
+    border: 1px red solid;
+}
+
+input[type="text"] {
+    border: 1px greenyellow solid;
+}

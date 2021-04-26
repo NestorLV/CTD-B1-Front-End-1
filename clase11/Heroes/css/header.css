@@ -9,8 +9,6 @@ header {
 
 .subNav1 {
     background-color: var(--colorDisccount);
-
-
 }
 
 .subNav1 p {
@@ -38,42 +36,39 @@ header {
 }
 
 .subNav2 h1 {
-    display: inline-block;
     color: var(--textColorNav);
+    display: inline-block;
     font-size: var(--fontSizeNav2);
-    position: relative;
-    top: -1vw;
     font-weight: lighter;
     padding-left: 1vw;
+    position: relative;
+    top: -1vw;
 }
 
 header ul {
-    text-align: right;
-    padding: 0.25vw 1vw 0.25vw 0.25vw;
     background-color: var(--colorNav2);
     display: block;
     list-style-type: none;
-    margin-block-start: 0;
     margin-block-end: 0;
-    margin-inline-start: 0;
+    margin-block-start: 0;
     margin-inline-end: 0;
+    margin-inline-start: 0;
     padding-inline-start: 0;
+    padding: 0.25vw 1vw 0.25vw 0.25vw;
+    text-align: right;
 }
 
 header ul li {
-    display: inline;
     color: var(--textColorNav);
-    padding: 1vw;
-    font-size: var(--fontSizeNav1)
+    display: inline;
+    font-size: var(--fontSizeNav1) padding: 1vw;
 }
 
 header ul li a {
     color: var(--textColorNav);
     text-decoration: none;
-
 }
 
 header ul li a:hover {
     background-color: gray;
-
 }

@@ -20,31 +20,31 @@ form {
 
 input,
 textarea {
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
     display: block;
+    font-size: var(--fontSizeP);
     height: 40px;
     margin: 20px auto;
-    border: 1px solid gainsboro;
-    width: 450px;
-    box-sizing: border-box;
     padding-left: 10px;
-    font-size: var(--fontSizeP);
+    width: 450px;
 }
 
 textarea {
-    resize: none;
     height: 150px;
+    resize: none;
 }
 
 input[type="submit"],
 input[type="reset"] {
     background-color: var(--colorDisccount);
-    border: none;
     border-radius: 20px;
+    border: none;
+    display: inline-block;
     font-size: var(--fontSizeP);
     font-weight: bold;
     margin: 30px auto 20px auto;
     width: 220px;
-    display: inline-block;
 }
 
 input[type="reset"] {
