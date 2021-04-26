@@ -1,0 +1,65 @@
+@import url('var.css');
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.subNav1 {
+    background-color: var(--colorDisccount);
+   
+    
+}
+
+.subNav1 p{
+    font-size: var(--fontSizeNav1);
+    margin-block-end: 0em;
+    margin-block-start: 0em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    padding-left: 2vw;
+}
+
+.subNav2 {
+    background-color:var(--colorNav);
+    padding-left: 2vw;
+    
+}
+
+.subNav2 img {
+    display: inline-block;
+}
+
+.subNav2 h1 {
+    display: inline-block;
+    color: var(--textColorNav);
+    font-size: var(--fontSizeNav2);
+    position: relative;
+    top:-25px;
+    font-weight: lighter;
+}
+
+header ul {
+    text-align: right;
+    padding: 5px 15px 5px 5px;
+    background-color:var(--colorNav2);
+}
+
+header ul li {
+    display: inline;
+    color: var(--textColorNav);
+    padding: 10px 10px;
+    font-size: var(--fontSizeNav3)
+}
+
+header ul li a {
+    color: var(--textColorNav);
+    text-decoration: none;
+
+}
+
+header ul li a:hover {
+    background-color: gray;
+    
+}

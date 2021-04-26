@@ -1,0 +1,31 @@
+:root {
+    --colorDisccount: #1CD1B0;
+    --colorFooter: #00669F;
+    --colorNav: #00669F;
+    --colorNav2:#001D2D;
+    --colorQuin: #2C0187;
+
+
+    --textColorFooter: #ffffff;
+    --textColorNav: #FFFFFF;
+
+    
+    --fontSizeNav1: 16px;
+    --fontSizeNav2: 32px;
+    --fontSizeNav3: 20px;
+    --fontSizeP: 16px;
+    --fontSizeH2: 24px;
+    --fontSizeFooter: 16px;
+   
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+ 
+}
+

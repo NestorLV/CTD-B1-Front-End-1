@@ -1,0 +1,9 @@
+/* Scope Global */
+:root{
+    --colorPrincipal: red;
+    --medidaBase: 500px;
+}
+/* Scope local para selectores */
+section{
+    --color: violet;
+}

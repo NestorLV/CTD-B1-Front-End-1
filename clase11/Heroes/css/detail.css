@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('header.css');
+@import url('footer.css');
+@import url('var.css');
+
+body {
+    background-image: url("../img/bg-harley.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 920px;
+}
+
+section {
+    margin: 0 auto;
+    padding-top: 250px;
+    text-align: center;
+}
+
+.card {
+    width: 546px;
+    display: inline-block;
+    margin: 30px;
+    position:relative;
+}
+
+.icoHarley {
+    background-image: url("../img/harley.jpg");
+    background-position: -20px 0px;
+    background-size: 100%;
+    border-radius: 50%;
+    height: 150px;
+    margin: 0 auto;
+    position: absolute;
+    top: -75px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 150px;
+}
+
+i {
+    color: #cc2424;
+    font-size: 50px;
+    left: 5%;
+    position: absolute;
+    top: 15%;
+    z-index: 9;
+}
+
+.bottom-card {
+    background-color: #F3F3F3;
+    padding-top: 50px;
+    height: 300px;
+        
+    border-radius: 50px 50px 0 0;
+}
+
+.bottom-card h2 {
+    text-align: center;
+    font-size: var(--fontSizeH2);
+    padding: 30px 0;
+    color: var(--colorQuin);
+    text-decoration: underline;
+
+}
+
+.bottom-card p {
+    font-size: var(--fontSizeP);
+    text-align: center;
+    padding: 0 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.bottom-card p span {
+    color: var(--colorQuin);
+    font-weight: bold;
+}
+
+
+a.buttom {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: var(--colorQuin);
+    border-radius: 0 0 50px 50px;
+    width: 100%;
+    font-size: var(--fontSizeP);
+    margin: 0 auto;
+    padding: 2em 1em;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.buttomPlus {
+    position: fixed;
+    right: 1%;
+    color: #00669f;
+    top: 50%;
+    font-size: 3em;
+}
+
+div.icons {
+    background-color: #F3F3F3;
+    padding-bottom: 10px;
+}
+ul {
+    display: none;
+}

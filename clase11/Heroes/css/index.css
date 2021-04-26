@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('header.css');
+@import url('footer.css');
+@import url('var.css');
+
+section {
+    margin: 0 auto;
+    padding-top: 230px;
+    text-align: center; 
+}
+
+.card {
+    width: 300px;
+    display: inline-block;
+    margin: 30px;
+}
+
+.bgBatman {
+    background-image: url("../img/bg-batman.jpg");
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px 50px 0 0;
+    height: 256px;
+    position: relative;
+}
+
+.bgWonderWoman {
+    background-image: url("../img/bg-wonderw.jpg");
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px 50px 0 0;
+    height: 256px;
+    position: relative;
+}
+
+.bgSuperman {
+    background-image: url("../img/bg-superman.jpg");
+    background-position: 0px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px 50px 0 0;
+    height: 256px;
+    position: relative;
+}
+
+.bgHarley {
+    background-image: url("../img/bg-harley.png");
+    background-position: -80px 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50px 50px 0 0;
+    height: 256px;
+    position: relative;
+}
+
+.icoBatman {
+    background-image: url("../img/batman.jpg");
+    background-position: 185px 0px;
+    background-size: 300%;
+    border-radius: 50%;
+    height: 100px;
+    margin: 0 auto;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 100px;
+}
+
+.icoWonderWoman {
+    background-image: url("../img/wonderwoman.jpg");
+    background-position: 110px 0px;
+    background-size: 120%;
+    border-radius: 50%;
+    height: 100px;
+    margin: 0 auto;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 100px;
+}
+
+.icoSuperMan {
+    background-image: url("../img/superman.jpg");
+    background-position: 155px 0px;
+    background-size: 200%;
+    border-radius: 50%;
+    height: 100px;
+    margin: 0 auto;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 100px;
+}
+
+.icoHarley {
+    background-image: url("../img/harley.jpg");
+    background-position: 105px 0px;
+    background-size: 150%;
+    border-radius: 50%;
+    height: 100px;
+    margin: 0 auto;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    width: 100px;
+}
+
+.card i {
+    color: #cc2424;
+    font-size: var(--fontSizeH2);
+    left: 8%;
+    position: absolute;
+    top: 8%;
+}
+
+.bottom-card {
+    background-color: gainsboro;
+    padding-top: 50px;
+    height: 190px;
+    height: 200;
+}
+
+.bottom-card h2 {
+    text-align: center;
+    font-size: var(--fontSizeH2);
+}
+
+.bottom-card p {
+    font-size: var(--fontSizeP);
+    text-align: center;
+    padding: 0 5px;
+
+   
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+    
+}
+.buttom {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: gainsboro;
+    padding: 1em;
+
+}
+
+div a {
+    background-color:var(--colorNav);
+    border-radius: 5px;
+    color: white;
+    display: block;
+    font-size: var(--fontSizeP);
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    
+}
+
+
+.buttomPlus {
+    position: fixed;
+    right: 1%;
+    color: #00669f;
+    top: 50%;
+    font-size: 3em;
+}
