@@ -1,0 +1,13 @@
+1) Hacer la estructura del figma a mano para analizar la estructura del html
+2) Descargar las imagenes del figma assets a la carpeta img, preferible usar formato svg para no perder resolucion
+3) darle titulo a la pagina
+4) realizar la estructura del html, evitar usar tantas clases y mejor apoyarse con los selectores avanzados como anidacion (>), hijos (nth-child(n))
+
+5) configurar el css de las variables
+6) configurar el header css
+7) configurar el footer css
+8) configurar la hoja principal de estilos
+
+
+si tiene dudas con los selectores revisar esta pagina 
+https://www.w3schools.com/cssref/css_selectors.asp

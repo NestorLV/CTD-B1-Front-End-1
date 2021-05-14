@@ -1,0 +1,26 @@
+@import url('var.css');
+@import url('header.css');
+@import url('footer.css');
+
+/* Ejemplo invocar variable: var(--backgroundColorPrimary)  */ 
+
+/* Se declara en el body el tipo de fuente aplicar */
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    /*  Ojo cambiar Roboto si es sans serif, en caso que sea serif, usar: 'Times New Roman', Times, serif */
+
+  
+}
+
+
+
+/* modulo para configurar media queries  */
+@media (max-width: 768px) {
+    
+
+}
+
+@media (max-width: 450px) {
+   
+
+}

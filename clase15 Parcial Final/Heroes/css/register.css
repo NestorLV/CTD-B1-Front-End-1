@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('header.css');
+@import url('footer.css');
+@import url('var.css');
+
+section {
+    margin: 0 auto;
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+main section h2 {
+    font-size: 72px;
+    margin: 20px;
+}
+
+form {
+    margin: 0 auto;
+}
+
+input,
+select {
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
+    display: block;
+    font-size: var(--fontSizeP);
+    height: 40px;
+    margin: 20px auto;
+    padding-left: 10px;
+    width: 450px;
+}
+
+input[type=submit],
+input[type=reset] {
+    background-color: var(--colorDisccount);
+    border-radius: 20px;
+    border: none;
+    display: inline-block;
+    font-size: var(--fontSizeP);
+    font-weight: bold;
+    margin: 30px auto 20px auto;
+    width: 220px;
+}
+
+input[type=reset] {
+    background-color: gray;
+}
+
+select {
+    font-size: var(--fontSizeP);
+    padding-left: 20px;
+}
+
+main section span {
+    color: #00669F;
+}
+
+main section a {
+    color: black;
+    text-decoration: none;
+}
+
+header ul {
+    display: none;
+}

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('header.css');
+@import url('footer.css');
+@import url('var.css');
+
+body {
+    background-image: url("../img/bg-harley.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 920px;
+    
+}
+
+section {
+    margin: 0 auto;
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.card {
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+    width: 546px;
+}
+
+.icoHarley {
+    background-image: url("../img/harley.jpg");
+    background-position: -20px 0px;
+    background-size: 100%;
+    border-radius: 50%;
+    height: 150px;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: -75px;
+    width: 150px;
+    z-index: 2;
+}
+
+i {
+    color: #cc2424;
+    font-size: 50px;
+    left: 5%;
+    position: absolute;
+    top: 15%;
+    z-index: 2;
+}
+
+.bottom-card {
+    background-color: #F3F3F3;
+    border-radius: 50px 50px 0 0;
+    height: 300px;
+    padding-top: 50px;
+}
+
+.bottom-card h2 {
+    color: var(--colorQuin);
+    font-size: var(--fontSizeH2);
+    padding: 30px 0;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bottom-card p {
+    font-size: var(--fontSizeP);
+    overflow: hidden;
+    padding: 0 5px;
+    text-align: center;
+    text-overflow: ellipsis;
+}
+
+.bottom-card p span {
+    color: var(--colorQuin);
+    font-weight: bold;
+}
+
+
+a.buttom {
+    background-color: var(--colorQuin);
+    border-radius: 0 0 50px 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: white;
+    display: inline-block;
+    font-size: var(--fontSizeP);
+    margin: 0 auto;
+    padding: 2em 1em;
+    text-decoration: none;
+    width: 100%;
+}
+
+.buttomPlus {
+    color: #00669f;
+    font-size: 3em;
+    position: fixed;
+    right: 1%;
+    top: 50%;
+}
+
+div.icons {
+    background-color: #F3F3F3;
+    padding-bottom: 10px;
+}
+
+ul {
+    display: none;
+}
+

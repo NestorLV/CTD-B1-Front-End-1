@@ -1,0 +1,74 @@
+@import url('var.css');
+
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.subNav1 {
+    background-color: var(--colorDisccount);
+}
+
+.subNav1 p {
+    font-size: var(--fontSizeNav1);
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+    padding-left: 1vw;
+}
+
+.subNav2 {
+    background-color: var(--colorNav);
+    padding-left: 0.5vw;
+
+}
+
+.subNav2 a {
+    display: inline-block;
+}
+
+.subNav2 a img {
+    display: inline-block;
+    height: 4vw;
+}
+
+.subNav2 h1 {
+    color: var(--textColorNav);
+    display: inline-block;
+    font-size: var(--fontSizeNav2);
+    font-weight: lighter;
+    padding-left: 1vw;
+    position: relative;
+    top: -1vw;
+}
+
+header ul {
+    background-color: var(--colorNav2);
+    display: block;
+    list-style-type: none;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+    padding-inline-start: 0;
+    padding: 0.25vw 1vw 0.25vw 0.25vw;
+    text-align: right;
+}
+
+header ul li {
+    color: var(--textColorNav);
+    display: inline;
+    font-size: var(--fontSizeNav1) padding: 1vw;
+}
+
+header ul li a {
+    color: var(--textColorNav);
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    background-color: gray;
+}

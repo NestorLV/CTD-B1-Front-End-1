@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Se declaran las variables de la pagina */
+
+:root {
+    --colorPrimary:white;
+    --colorSecondary: black;
+    --colorTerciary:#F0A83E;
+    --colorCuarter:#3C2313;
+    --sizeFontPrimary: 16px;
+    --backgroundColorHeader: #F0A83E;
+    --backgroundColorOther: #222222;
+    --backgroundColorFooter: #3C2313;
+
+    --backgroundColorSecondary: black;
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}

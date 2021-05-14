@@ -1,0 +1,161 @@
+@import url('var.css');
+@import url('header.css');
+@import url('footer.css');
+
+/* Ejemplo invocar variable: var(--backgroundColorPrimary)  */
+
+/* Se declara en el body el tipo de fuente aplicar */
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    /*  Ojo cambiar Roboto si es sans serif, en caso que sea serif, usar: 'Times New Roman', Times, serif */
+
+
+}
+
+section.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/backgroundHero.png');
+    height: 32rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+div.subcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+
+section.hero>div.container>h2 {
+    color: var(--colorPrimary);
+    font-size: 2.5rem;
+    margin: 0 0 2rem 0;
+    text-align: center;
+}
+
+section.hero>div.container>h2>span {
+    color: var(--colorSecondary);
+}
+
+section.hero>div.container>a {
+    background-color: var(--colorSecondary);
+    padding: 1rem 3rem;
+    color: var(--colorPrimary);
+    text-decoration: none;
+}
+
+section.featured {
+    background-color: var(--backgroundColorMain);
+    padding: 1rem;
+}
+
+div.container>h3 {
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+div.card {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+div.topCard {
+    padding: 2rem 3rem;
+    background-color: white;
+    border-bottom: 1px black solid;
+}
+
+div.bottomCard {
+    background-color: white;
+    padding: 1rem;
+}
+
+div.bottomCard>h4 {
+    font-size: 1.25rem;
+    padding: 0.1rem 0;
+}
+
+div.bottomCard>h5 {
+    font-size: 0.8rem;
+    padding: 0.1rem 0;
+}
+
+div.bottomCard>h6 {
+    font-size: 0.6rem;
+    color: forestgreen;
+    padding: 0.1rem 0;
+}
+
+
+section.stars {
+    background-color: var(--backgroundColorMain);
+    padding: 1rem 1rem 4rem 1rem;
+}
+
+section.stars>div>div>div {
+    width: 20rem;
+    height: 8rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+div.chair {
+    background-image: url('../img/banner1.png');
+}
+
+div.computer {
+    background-image: url('../img/banner2.png');
+}
+
+div.chair>p,
+div.computer>p {
+    color: var(--colorPrimary);
+    font-size: 1.25rem;
+    padding-right: 1rem;
+}
+
+@media (max-width: 480px) {
+    header>nav {
+        display: none;
+    }
+
+    div.subcontainer {
+        flex-wrap: wrap;
+    }
+
+    div.footerTop {
+        flex-wrap: wrap;
+    }
+
+    div.footerTop {
+
+        justify-content: center;
+    }
+
+    div.hamburguer {
+        display: flex;
+        
+       
+    }
+
+    div.hamburguer>i{
+        margin-right: 3rem;
+        font-size:2rem;
+    }
+
+}

@@ -1,0 +1,92 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--backgroundColorHeader);
+    
+}
+
+div.container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+div.superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--backgroundColorOther);
+    color:var(--colorPrimary);
+    font-size: 0.6rem;
+}
+
+div.superior>div:nth-child(2){
+    display: flex;
+}
+div.superior>div>p{
+    padding: 0 1rem;
+}
+
+div.inferior {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 4rem;
+}
+
+div.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    
+}
+
+div.logo>img {
+    width: 1.25rem;
+}
+
+div.menuMobile {
+    display: none;
+}
+
+div.logo>h1 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: var(--colorSecondary);
+}
+
+
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0 1rem;
+    color: var(--colorPrimary);
+    font-size: 0.8rem;
+}
+
+nav ul li i {
+    padding-right: 0.2rem;
+}
+
+
+header div.other {
+    display: flex;
+    justify-content: center;
+    color: var(--colorPrimary);
+    padding-right: 1rem;
+    
+}
+
+header div.other i{
+    padding: 0 0.2rem;
+    
+} 

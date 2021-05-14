@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Se declaran las variables de la pagina */
+
+:root {
+    --colorPrimary: red;
+    --colorSecondary: blue;
+    --sizeFontPrimary: 16px;
+    --backgroundColorPrimary: gainsboro;
+    --backgroundColorSecondary: black;
+
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}

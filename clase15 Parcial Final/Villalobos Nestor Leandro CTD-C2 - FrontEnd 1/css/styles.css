@@ -1,0 +1,154 @@
+@import url('var/var.css');
+@import url('header.css');
+@import url('footer.css');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: var(--sizeFontPrimary);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 30rem;
+}
+
+div.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+div.container h2 {
+    font-size: 1rem;
+    color: var(--colorCuarter);
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+
+
+form input {
+    margin: 0.5rem 0;
+    border-radius: 20px;
+    background-color: var(--backgroundColorFooter);
+    height: 2.5rem;
+}
+
+input[type=text] {
+    width: 340px;
+}
+
+input::placeholder {
+    padding-left: 1rem;
+    color: white;
+    font-size: 0.8rem;
+}
+
+div.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+div.buttons input {
+    margin: 1rem 0;
+    width: 8rem;
+
+}
+
+div.buttons input[type=submit]:hover {
+    margin: 1rem 0;
+    width: 8rem;
+    animation-name: CambioColor;
+    animation-duration: 2s;
+}
+
+@keyframes CambioColor {
+    from {
+        background-color: var(--backgroundColorHeader)
+    }
+
+    to {
+        background-color: cyan;
+    }
+}
+
+div.buttons input[type=reset]:hover {
+    margin: 1rem 0;
+    width: 8rem;
+    animation-name: CambioColor2;
+    animation-duration: 2s;
+}
+
+@keyframes CambioColor2 {
+    from {
+        background-color: gray;
+    }
+
+    to {
+        background-color: cyan;
+    }
+}
+
+
+div.buttons input[type=reset] {
+    background-color: gray;
+    border: none;
+    font-weight: bold;
+}
+
+div.buttons input[type=submit] {
+    background-color: var(--backgroundColorHeader);
+    border: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+/* modulo para configurar media queries  */
+
+
+/* El mobile se usa a 480 px pero mi pantalla es muy grande por tanto preferi usar 768 */
+
+@media (max-width: 768px) {
+    footer div.subcontainer3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.down {
+
+        justify-content: center;
+    }
+
+    nav,
+    header div.other {
+        display: none;
+    }
+
+    div.menuMobile {
+        display: flex;
+        padding-right: 1rem;
+        color: var(--colorPrimary);
+    }
+}
